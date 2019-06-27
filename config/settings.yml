@@ -2,7 +2,14 @@ user:
   name_max_length: 50
   mail_max_length: 255
   pass_min_length: 6
+  token_timeout: 2
 user_helper:
   gravatar_size: 80
 session:
   remember: 1
+session:
+  remember: 1
+micropost:
+  content_max_length: 140
+feed:
+  gravatar_size: 50
