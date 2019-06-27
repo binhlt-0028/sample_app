@@ -143,6 +143,7 @@ en:
       post: "Post"
     user_info:
       view_profile: "view my profile"
+  file_size_err: "Maximum file size is 5MB! Try again!"
   english: "English"
   vietnamese: "Vietnamese"
 

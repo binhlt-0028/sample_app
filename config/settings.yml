@@ -11,5 +11,6 @@ session:
   remember: 1
 micropost:
   content_max_length: 140
+  picture_size: 5
 feed:
   gravatar_size: 50
