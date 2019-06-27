@@ -12,6 +12,7 @@ en:
   setting: "Setting"
   account: "Account"
   news: "News"
+  user: "Users"
   static_pages:
     about:
       title: "About"
@@ -42,15 +43,32 @@ en:
   users:
     create_success: "Welcome to the Sample App!"
     create_error: "Info is invalid! Please try again!"
-    new:
-      signup: "Sign up"
+    form:
       name: "Name"
       email: "Email"
       pass: "Password"
       confirm_pass: "Confirmation"
+    new:
+      signup: "Sign up"
       create_acc: "Create my account"
+    edit:
+      change: "Change"
+      require_login: "Please log in!"
+      update_profile: "Update your profile"
+      edit_user: "Edit user"
+      save_change: "Save changes"
+    update:
+      update_success: "Profile Updated!"
+      update_error: "Update error! Please check infomation again!"
     show:
       user_not_found: "User not found!"
+    user:
+      delete: "delete"
+      confirm: "Are tou sure?"
+    destroy:
+      deleted: "User deleted!"
+    index:
+      all_user: "All user"
   sessions:
     login_invalid: "Invalid email/password combination!"
     new:
@@ -60,6 +78,13 @@ en:
       sign_up_now: "Sign up now!"
       new_user: "New user?"
       remember: "Remember me on this computer"
-    english: "English"
-    vietnamese: "Vietnamese"
+  views:
+    pagination:
+      first: "First"
+      last: "Last"
+      previous: "Previous"
+      next: "Next"
+      truncate: "…"
+  english: "English"
+  vietnamese: "Vietnamese"
 

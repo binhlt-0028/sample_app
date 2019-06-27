@@ -12,6 +12,7 @@ vi:
   setting: "Cài đặt"
   account: "Tài khoản"
   news: "Bản tin"
+  user: "Danh sách người dùng"
   static_pages:
     about:
       title: "Giới thiệu"
@@ -42,13 +43,32 @@ vi:
   users:
     create_success: "Chào mừng đến với Ứng dụng mẫu!"
     create_error: "Thông tin đăng kí không hợp lệ!"
-    new:
-      signup: "Đăng ký"
+    form:
       name: "Họ tên"
       email: "Email"
       pass: "Mật khẩu"
       confirm_pass: "Xác nhận mật khẩu"
+    new:
       create_acc: "Tạo tài khoản"
+      signup: "Đăng ký"
+    edit:
+      change: "Thay đổi"
+      require_login: "Vui lòng đăng nhập trước!"
+      update_profile: "Cập nhật thông tin cá nhân"
+      edit_user: "Cập nhật thông tin"
+      save_change: "Lưu thay đổi"
+    update:
+      update_success: "Cập nhật thông tin thành công!"
+      update_error: "Cập nhật thất bại! Vui lòng kiểm tra lại thông tin!"
+    show:
+      user_not_found: "Không tìm thấy người dùng!"
+    user:
+      delete: "Xoá người dùng"
+      confirm: "Bạn chắc chắn muốn xoá?"
+    destroy:
+      deleted: "Xoá người dùng thành công!"
+    index:
+      all_user: "Danh sách người dùng"
   activerecord:
     errors:
       models:
@@ -71,5 +91,12 @@ vi:
       sign_up_now: "Đăng ký ngay!"
       new_user: "Người dùng mới?"
       remember: "Lưu lại tôi trong máy tính này"
-    english: "Tiếng Anh"
-    vietnamese: "Tiếng Việt"
+  views:
+    pagination:
+      first: "Trang đầu"
+      last: "Trang cuối"
+      previous: "Trang trước"
+      next: "Trang sau"
+      truncate: "…"
+  english: "Tiếng Anh"
+  vietnamese: "Tiếng Việt"

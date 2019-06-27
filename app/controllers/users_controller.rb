@@ -1,10 +1,18 @@
 class UsersController < ApplicationController
+  before_action :logged_in_user, only: %i(index edit update destroy)
+  before_action :correct_user, only: %i(edit update show)
+  before_action :admin_user, only: :destroy
+
   def new
     @user = User.new
   end
 
+  def index
+    @users = User.all.page params[:page]
+  end
+
   def show
-    redirect_to signup_path unless @user = User.find_by(id: params[:id])
+    redirect_to signup_path unless @user
   end
 
   def create
@@ -12,7 +20,7 @@ class UsersController < ApplicationController
 
     if @user.save
       log_in @user
-      flash.now[:success] = t ".create_success"
+      flash[:success] = t ".create_success"
       redirect_to @user
     else
       flash.now[:danger] = t ".create_error"
@@ -20,10 +28,44 @@ class UsersController < ApplicationController
     end
   end
 
+  def edit; end
+
+  def update
+    if @user.update_attributes user_params
+      flash[:success] = t ".update_success"
+      redirect_to @user
+    else
+      flash.now[:danger] = t ".update_error"
+      render :edit
+    end
+  end
+
+  def destroy
+    @user.destroy
+    flash[:success] = t ".deleted"
+    redirect_to users_url
+  end
+
   private
 
   def user_params
     params.require(:user).permit :name, :email, :password,
       :password_confirmation
+  end
+
+  def logged_in_user
+    return if logged_in?
+    store_location
+    flash[:danger] = t ".require_login"
+    redirect_to login_url
+  end
+
+  def correct_user
+    @user = User.find_by id: params[:id]
+    redirect_to root_url unless current_user? @user
+  end
+
+  def admin_user
+    redirect_to root_url unless current_user.admin?
   end
 end
