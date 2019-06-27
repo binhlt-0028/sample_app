@@ -9,6 +9,8 @@ gem "config"
 
 gem "rails", "~> 5.2.3"
 
+gem "jquery-rails"
+
 gem "puma", "~> 3.11"
 gem "sass-rails", "~> 5.0"
 gem "sqlite3"

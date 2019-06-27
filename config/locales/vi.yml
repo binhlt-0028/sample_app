@@ -7,6 +7,10 @@ vi:
   contact: "Liên hệ"
   help: "Trợ giúp"
   login: "Đăng nhập"
+  logout: "Đăng xuất"
+  profile: "Thông tin cá nhân"
+  setting: "Cài đặt"
+  account: "Tài khoản"
   news: "Bản tin"
   static_pages:
     about:
@@ -58,5 +62,13 @@ vi:
             password:
               blank: "không được bỏ trống!"
               too_short: "quá ngắn"
+  sessions:
+    login_invalid: "Thông tin đăng nhập không hợp lệ!"
+    new:
+      email: "Email"
+      pass: "Mật khẩu"
+      login: "Đăng nhập"
+      sign_up_now: "Đăng ký ngay!"
+      new_user: "Người dùng mới?"
     english: "Tiếng Anh"
     vietnamese: "Tiếng Việt"
