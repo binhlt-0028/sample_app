@@ -2,6 +2,12 @@ en:
   base_title: "Ruby on Rails Tutorial App"
   tutorial_link: "Ruby on Rails Tutorial"
   sample_app: "sample app"
+  home: "Home"
+  about:  "About"
+  contact: "Contact"
+  help: "Help"
+  login: "Login"
+  news: "News"
   static_pages:
     about:
       title: "About"
@@ -14,8 +20,10 @@ en:
       this_is_sample: "This is the sample application for the tutorial."
       sample_application: "sample application"
     home:
+      welcome_sample: "Welcome to the Sample App"
       title: "Home"
       this_is_home_page: "This is home page for the"
+      sign_up: "Sign up now!"
     contact:
       title: "Contact"
       contact_the_ruby: "Contact the Ruby on Rails Tutorial about the sample app"
@@ -27,6 +35,10 @@ en:
       help_section: "Rails Tutorial help section"
       get_help_sample_app: "To get help on this sample app, see the"
       book: "book"
+  users:
+    new:
+      signup: "Sign up"
+      this_will_sign_up: "This will be a signup page for new users."
     english: "English"
     vietnamese: "Vietnamese"
 

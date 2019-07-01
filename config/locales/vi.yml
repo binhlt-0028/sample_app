@@ -2,6 +2,12 @@ vi:
   base_title: "Ứng dụng hướng dẫn Ruby on Rails"
   tutorial_link: "Ruby on Rails Tutorial"
   sample_app: "ứng dụng mẫu"
+  home: "Trang chủ"
+  about:  "Giới thiệu"
+  contact: "Liên hệ"
+  help: "Trợ giúp"
+  login: "Đăng nhập"
+  news: "Bản tin"
   static_pages:
     about:
       title: "Giới thiệu"
@@ -14,8 +20,10 @@ vi:
       this_is_sample: "Đây là ứng dụng mẫu cho hướng dẫn."
       sample_application: "về ứng dụng mẫu"
     home:
+      welcome_sample: "Chào mừng đến với Ứng dụng mẫu"
       title: "Trang chủ"
       this_is_home_page: "Đây là trang chủ của"
+      sign_up: "Đăng kí ngay!"
     contact:
       title: "Liện hệ"
       contact_the_ruby: "Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu"
@@ -27,5 +35,9 @@ vi:
       help_section: "phần trợ giúp Rails tutorial"
       get_help_sample_app: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
       book: ""
+  users:
+    new:
+      signup: "Đăng ký"
+      this_will_sign_up: "Đây sẽ là một trang đăng ký cho người dùng mới."
     english: "Tiếng Anh"
     vietnamese: "Tiếng Việt"
