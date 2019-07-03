@@ -36,8 +36,27 @@ vi:
       get_help_sample_app: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
       book: ""
   users:
+    create_success: "Chào mừng đến với Ứng dụng mẫu!"
+    create_error: "Thông tin đăng kí không hợp lệ!"
     new:
       signup: "Đăng ký"
-      this_will_sign_up: "Đây sẽ là một trang đăng ký cho người dùng mới."
+      name: "Họ tên"
+      email: "Email"
+      pass: "Mật khẩu"
+      confirm_pass: "Xác nhận mật khẩu"
+      create_acc: "Tạo tài khoản"
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              invalid: "không hợp lệ!"
+              blank: "không được bỏ trống!"
+            name:
+              blank: "không được bỏ trống!"
+            password:
+              blank: "không được bỏ trống!"
+              too_short: "quá ngắn"
     english: "Tiếng Anh"
     vietnamese: "Tiếng Việt"
