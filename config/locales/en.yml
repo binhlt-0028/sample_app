@@ -7,6 +7,10 @@ en:
   contact: "Contact"
   help: "Help"
   login: "Login"
+  logout: "Logout"
+  profile: "Profile"
+  setting: "Setting"
+  account: "Account"
   news: "News"
   static_pages:
     about:
@@ -47,6 +51,14 @@ en:
       create_acc: "Create my account"
     show:
       user_not_found: "User not found!"
+  sessions:
+    login_invalid: "Invalid email/password combination!"
+    new:
+      email: "Email"
+      pass: "Password"
+      login: "Login"
+      sign_up_now: "Sign up now!"
+      new_user: "New user?"
     english: "English"
     vietnamese: "Vietnamese"
 

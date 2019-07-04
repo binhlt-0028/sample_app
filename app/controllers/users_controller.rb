@@ -4,13 +4,14 @@ class UsersController < ApplicationController
   end
 
   def show
-    redirect_to signup_path unless @user = User.find_by(params[:id])
+    redirect_to signup_path unless @user = User.find_by(id: params[:id])
   end
 
   def create
     @user = User.new user_params
 
     if @user.save
+      log_in @user
       flash.now[:success] = t ".create_success"
       redirect_to @user
     else
