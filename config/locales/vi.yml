@@ -87,6 +87,7 @@ vi:
   sessions:
     login_invalid: "Thông tin đăng nhập không hợp lệ!"
     new:
+      forgot_pass: "Quên mật khẩu?"
       email: "Email"
       pass: "Mật khẩu"
       login: "Đăng nhập"
@@ -110,9 +111,33 @@ vi:
       welcome: "Chào mừng đến với ứng dụng mẫu!"
       click_link: "Hãy kích vào đường dẫn dưới đây để kích hoạt tài khoản:"
       activate: "Kích hoạt"
+    password_reset:
+      subject: "Khôi phục mật khẩu"
+      pass_reset: "Mật khẩu khôi phục"
+      reset_pass: "Khôi phục mật khẩu"
+      to_reset: "Để khôi phục mật khẩu, nhấp vào đường dẫn dưới đây:"
+      this_link: "Đường dẫn này sẽ có thời hạn 2 giờ."
+      if_you_did: "Nế bạn không gửi yêu cầu khôi phục mật khẩu"
+      please_ignore: "Hãy bỏ qua email này và mật khẩu của bạn vẫn giữ nguyên"
   account_activations:
     edit:
       actived: "Kích hoạt tài khoản thành công!"
       invalid_link: "Đường dẫn kích hoạt tài khoản không hợp lệ!"
+  password_resets:
+    new:
+      pass_expired: "Liên kết đã hết hạn."
+      forgot: "Quên mật khẩu"
+      submit: "Gửi"
+    create:
+      sended_mail: "Liên kết khôi phục mật khẩu đã được gửi về email"
+      mail_not_found: "Không tìm thấy email"
+    update:
+      pass_emtry: "mật khẩu không được để trống"
+      reseted: "Khôi phục mật khẩu thành công"
+    edit:
+      reset_pass: "Khôi phục mật khẩu"
+      update_pass: "Cập nhật mật khẩu"
+      pass: "Mật khẩu mới"
+      confirm: "Xác nhận mật khẩu"
   english: "Tiếng Anh"
   vietnamese: "Tiếng Việt"
