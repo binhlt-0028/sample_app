@@ -48,12 +48,13 @@ vi:
       email: "Email"
       pass: "Mật khẩu"
       confirm_pass: "Xác nhận mật khẩu"
+    create:
+      please_check_mail: "Vui lòng kiểm tra email để kích hoạt tài khoản."
     new:
       create_acc: "Tạo tài khoản"
       signup: "Đăng ký"
     edit:
       change: "Thay đổi"
-      require_login: "Vui lòng đăng nhập trước!"
       update_profile: "Cập nhật thông tin cá nhân"
       edit_user: "Cập nhật thông tin"
       save_change: "Lưu thay đổi"
@@ -68,6 +69,7 @@ vi:
     destroy:
       deleted: "Xoá người dùng thành công!"
     index:
+      require_login: "Vui lòng đăng nhập trước!"
       all_user: "Danh sách người dùng"
   activerecord:
     errors:
@@ -91,6 +93,9 @@ vi:
       sign_up_now: "Đăng ký ngay!"
       new_user: "Người dùng mới?"
       remember: "Lưu lại tôi trong máy tính này"
+    create:
+      acc_not_actived: "Tài khoản chưa được kích hoạt. "
+      please_check_mail: "Vui lòng kiểm tra link kích hoạt trong email."
   views:
     pagination:
       first: "Trang đầu"
@@ -98,5 +103,16 @@ vi:
       previous: "Trang trước"
       next: "Trang sau"
       truncate: "…"
+  user_mailer:
+    account_activation:
+      subject: "Kích hoạt tài khoản"
+      hi: "Xin chào "
+      welcome: "Chào mừng đến với ứng dụng mẫu!"
+      click_link: "Hãy kích vào đường dẫn dưới đây để kích hoạt tài khoản:"
+      activate: "Kích hoạt"
+  account_activations:
+    edit:
+      actived: "Kích hoạt tài khoản thành công!"
+      invalid_link: "Đường dẫn kích hoạt tài khoản không hợp lệ!"
   english: "Tiếng Anh"
   vietnamese: "Tiếng Việt"

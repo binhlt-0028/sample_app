@@ -4,3 +4,5 @@ user:
   pass_min_length: 6
 user_helper:
   gravatar_size: 80
+session:
+  remember: 1
