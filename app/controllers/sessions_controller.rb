@@ -1,5 +1,9 @@
 class SessionsController < ApplicationController
-  def new; end
+  def new
+    return unless logged_in?
+    redirect_to root_url
+    flash[:danger] = t ".logged_in"
+  end
 
   def create
     user = User.find_by email: get_session_mail

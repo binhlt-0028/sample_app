@@ -58,6 +58,7 @@ vi:
     new:
       create_acc: "Tạo tài khoản"
       signup: "Đăng ký"
+      logged_in: "Bạn đã đăng nhập trước đó!"
     edit:
       change: "Thay đổi"
       update_profile: "Cập nhật thông tin cá nhân"
@@ -108,6 +109,7 @@ vi:
       sign_up_now: "Đăng ký ngay!"
       new_user: "Người dùng mới?"
       remember: "Lưu lại tôi trong máy tính này"
+      logged_in: "Bạn đã đăng nhập trước đó!"
     create:
       acc_not_actived: "Tài khoản chưa được kích hoạt. "
       please_check_mail: "Vui lòng kiểm tra link kích hoạt trong email."

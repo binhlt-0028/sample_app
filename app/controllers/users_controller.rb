@@ -9,7 +9,9 @@ class UsersController < ApplicationController
   end
 
   def new
-    @user = User.new
+    @user = User.new unless logged_in?
+    flash[:danger] = t ".logged_in"
+    redirect_to root_url
   end
 
   def show
@@ -34,7 +36,7 @@ class UsersController < ApplicationController
   end
 
   def update
-    if @user.send_activation_email
+    if @user.update user_params
       flash[:success] = t ".update_success"
       redirect_to @user
     else
