@@ -302,6 +302,7 @@ DEPENDENCIES
   chromedriver-helper
   coffee-rails (~> 4.2)
   config
+  faker
   figaro
   i18n-js
   jbuilder (~> 2.5)

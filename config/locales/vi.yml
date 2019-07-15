@@ -49,6 +49,10 @@ vi:
       email: "Email"
       pass: "Mật khẩu"
       confirm_pass: "Xác nhận mật khẩu"
+    following:
+      title: "Đang theo dõi"
+    followers:
+      title: "Người theo dõi bạn"
     create:
       please_check_mail: "Vui lòng kiểm tra email để kích hoạt tài khoản."
     new:
@@ -63,6 +67,7 @@ vi:
       update_success: "Cập nhật thông tin thành công!"
       update_error: "Cập nhật thất bại! Vui lòng kiểm tra lại thông tin!"
     show:
+      require_login: "Vui lòng đăng nhập trước!"
       microposts: "Bài viết"
       user_not_found: "Không tìm thấy người dùng!"
     user:
@@ -73,6 +78,13 @@ vi:
     index:
       require_login: "Vui lòng đăng nhập trước!"
       all_user: "Danh sách người dùng"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Huỷ theo dõi"
+    show_follow:
+      microposts: "Bài viết"
+      view_my_profile: "Xem thông tin của tôi"
   activerecord:
     errors:
       models:
@@ -156,6 +168,9 @@ vi:
       post: "Gửi"
     user_info:
       view_profile: "Xem thông tin của tôi"
+    stats:
+      following: "Đang theo dõi"
+      followers: "Được theo dõi"
   file_size_err: "Kích thước tệp không được quá 5MB. Hãy thử lại!"
   english: "Tiếng Anh"
   vietnamese: "Tiếng Việt"

@@ -49,6 +49,10 @@ en:
       email: "Email"
       pass: "Password"
       confirm_pass: "Confirmation"
+    following:
+      title: "Following"
+    followers:
+      title: "Followers"
     create:
       please_check_mail: "Please check your email to activate your account."
     new:
@@ -63,6 +67,7 @@ en:
       update_success: "Profile Updated!"
       update_error: "Update error! Please check infomation again!"
     show:
+      require_login: "Please log in!"
       microposts: "Microposts"
       user_not_found: "User not found!"
     user:
@@ -73,6 +78,13 @@ en:
     index:
       require_login: "Please log in!"
       all_user: "All user"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      microposts: "Microposts"
+      view_my_profile: "view my profile"
   sessions:
     login_invalid: "Invalid email/password combination!"
     new:
@@ -143,6 +155,9 @@ en:
       post: "Post"
     user_info:
       view_profile: "view my profile"
+    stats:
+      following: "Following"
+      followers: "Followers"
   file_size_err: "Maximum file size is 5MB! Try again!"
   english: "English"
   vietnamese: "Vietnamese"
