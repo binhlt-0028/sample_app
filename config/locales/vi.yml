@@ -156,5 +156,6 @@ vi:
       post: "Gửi"
     user_info:
       view_profile: "Xem thông tin của tôi"
+  file_size_err: "Kích thước tệp không được quá 5MB. Hãy thử lại!"
   english: "Tiếng Anh"
   vietnamese: "Tiếng Việt"
