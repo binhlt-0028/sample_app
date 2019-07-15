@@ -29,6 +29,7 @@ vi:
       title: "Trang chủ"
       this_is_home_page: "Đây là trang chủ của"
       sign_up: "Đăng kí ngay!"
+      micropost_feed: "Danh sách bài viết"
     contact:
       title: "Liện hệ"
       contact_the_ruby: "Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu"
@@ -62,6 +63,7 @@ vi:
       update_success: "Cập nhật thông tin thành công!"
       update_error: "Cập nhật thất bại! Vui lòng kiểm tra lại thông tin!"
     show:
+      microposts: "Bài viết"
       user_not_found: "Không tìm thấy người dùng!"
     user:
       delete: "Xoá người dùng"
@@ -139,5 +141,20 @@ vi:
       update_pass: "Cập nhật mật khẩu"
       pass: "Mật khẩu mới"
       confirm: "Xác nhận mật khẩu"
+  microposts:
+    create:
+      created: "Tạo bài viết thành công!"
+      create_error: "Nội dung không hợp lê! Hãy thử lại!"
+    destroy:
+      deleted: "Bài viết đã được xoá!"
+      delete_error: "Xoá bài viết không thành công"
+    micropost:
+      confirm: "Bạn chắc chắn muốn xoá?"
+  shared:
+    micropost_form:
+      compose: "Nội dung bài viết..."
+      post: "Gửi"
+    user_info:
+      view_profile: "Xem thông tin của tôi"
   english: "Tiếng Anh"
   vietnamese: "Tiếng Việt"

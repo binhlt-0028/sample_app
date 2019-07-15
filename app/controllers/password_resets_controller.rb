@@ -42,11 +42,11 @@ class PasswordResetsController < ApplicationController
   end
 
   def get_user
-    @user = User.find_by(email: params[:email])
+    @user = User.find_by email: params[:email]
   end
 
   def valid_user
-    return if @user&.activated?&.authenticated?(:reset, params[:id])
+    return if @user&.activated? && @user.authenticated?(:reset, params[:id])
     redirect_to root_url
   end
 

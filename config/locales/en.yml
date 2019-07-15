@@ -29,6 +29,7 @@ en:
       title: "Home"
       this_is_home_page: "This is home page for the"
       sign_up: "Sign up now!"
+      micropost_feed: "Micropost Feed"
     contact:
       title: "Contact"
       contact_the_ruby: "Contact the Ruby on Rails Tutorial about the sample app"
@@ -62,6 +63,7 @@ en:
       update_success: "Profile Updated!"
       update_error: "Update error! Please check infomation again!"
     show:
+      microposts: "Microposts"
       user_not_found: "User not found!"
     user:
       delete: "delete"
@@ -126,6 +128,21 @@ en:
       update_pass: "Update password"
       pass: "Password"
       confirm: "Confirmation"
+  microposts:
+    create:
+      created: "Micropost created!"
+      create_error: "Content is invalid! Try again!"
+    destroy:
+      deleted: "Micropost deleted"
+      delete_error: "Delete error"
+    micropost:
+      confirm: "You sure?"
+  shared:
+    micropost_form:
+      compose: "Compose new micropost..."
+      post: "Post"
+    user_info:
+      view_profile: "view my profile"
   english: "English"
   vietnamese: "Vietnamese"
 
