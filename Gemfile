@@ -21,8 +21,8 @@ gem "turbolinks", "~> 5"
 gem "uglifier", ">= 1.3.0"
 
 group :development, :test do
-  gem "sqlite3"
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
+  gem "sqlite3"
 end
 
 group :development do
@@ -39,6 +39,6 @@ group :test do
 end
 
 group :production do
-  gem 'pg', '0.20.0'
+  gem "pg", "0.20.0"
 end
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]

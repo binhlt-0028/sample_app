@@ -58,6 +58,7 @@ en:
     new:
       signup: "Sign up"
       create_acc: "Create my account"
+      logged_in: "You are logged in!"
     edit:
       change: "Change"
       update_profile: "Update your profile"
@@ -95,6 +96,7 @@ en:
       sign_up_now: "Sign up now!"
       new_user: "New user?"
       remember: "Remember me on this computer"
+      logged_in: "You are logged in!"
     create:
       acc_not_actived: "Account not activated. "
       please_check_mail: "Check your email for the activation link."
