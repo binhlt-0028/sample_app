@@ -1,4 +1,4 @@
-ActiveRecord::Schema.define(version: 2019_07_11_043748) do
+ActiveRecord::Schema.define(version: 2019_07_10_080856) do
 
   create_table "microposts", force: :cascade do |t|
     t.text "content"
@@ -35,4 +35,5 @@ ActiveRecord::Schema.define(version: 2019_07_11_043748) do
     t.datetime "reset_sent_at"
     t.index ["email"], name: "index_users_on_email", unique: true
   end
+
 end
